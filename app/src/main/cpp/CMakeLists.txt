@@ -2,7 +2,7 @@
 #设置构建本地库所需的最低cmake版本
 cmake_minimum_required(VERSION 3.4.1)
 #设置库文件导出目录
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/jniLibs/${ANDROID_ABI})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lameLibs/${ANDROID_ABI})
 #批量导入c文件和cpp文件
 file(GLOB lame lamemp3/*.c)
 file(GLOB lame2 lamemp3/*.cpp)
